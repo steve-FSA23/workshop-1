@@ -12,10 +12,6 @@ function multiplication(num1, num2) {
 try {
     const result = multiplication(5, 7); // Calling the function with numbers
     console.log("The product is:", result); // Output: "The product is: 35"
-
-    // Example with a string input (generates an error)
-    const result2 = multiplication(5, "7"); // Calling the function with a string
-    console.log("The product is:", result2); // This line won't be reached
 } catch (error) {
     console.error("Error:", error.message); // Output: "Error: Both inputs must be numbers."
 }
