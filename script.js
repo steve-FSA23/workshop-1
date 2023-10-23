@@ -27,16 +27,16 @@ function concatOdds(arr1, aar2) {
         return array.filter((num) => num % 2 !== 0).sort((a, b) => a - b);
     }
 
-    // // Convert user prompts into arrays of numbers
-    // const userArray1 = prompt(
-    //     "Enter numbers separated by commas (e.g., 1, 3, 5):"
-    // )
-    //     .split(",")
-    //     .map(Number);
+    // Convert user prompts into arrays of numbers
+    const userArray1 = prompt(
+        "Enter numbers separated by commas (e.g., 1, 3, 5):"
+    )
+        .split(",")
+        .map(Number);
 
-    // const userArray2 = prompt("Enter more numbers separated by commas:")
-    //     .split(",")
-    //     .map(Number);
+    const userArray2 = prompt("Enter more numbers separated by commas:")
+        .split(",")
+        .map(Number);
 
     // Concatenate and filter/sort odd numbers
     const combinedArray = userArray1.concat(userArray2);
